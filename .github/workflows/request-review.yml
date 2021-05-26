@@ -26,7 +26,7 @@ jobs:
           java-version: '15'
 
       - name: 'Request Code Review'
-        uses: usf-cs212-spring2021/action-request-review@main
+        uses: usf-cs212-summer2021/action-request-review@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release: ${{ github.event.inputs.release }}

@@ -21,7 +21,7 @@ jobs:
 
     steps:
       - name: 'Request Project Grade'
-        uses: usf-cs212-spring2021/action-request-grade@main
+        uses: usf-cs212-summer2021/action-request-grade@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release: ${{ github.event.inputs.release }}
