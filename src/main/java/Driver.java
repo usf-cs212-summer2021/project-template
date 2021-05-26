@@ -7,7 +7,7 @@ import java.time.Instant;
  *
  * @author CS 212 Software Development
  * @author University of San Francisco
- * @version Spring 2021
+ * @version Summer 2021
  */
 public class Driver {
 
@@ -22,7 +22,7 @@ public class Driver {
 		// store initial start time
 		Instant start = Instant.now();
 
-		// TODO Fill in
+		// TODO Fill in and modify as needed
 
 		// calculate time elapsed and output
 		Duration elapsed = Duration.between(start, Instant.now());
@@ -31,11 +31,15 @@ public class Driver {
 	}
 
 	/*
-	 * Generally, "driver" classes are responsible for setting up and calling
+	 * Generally, "Driver" classes are responsible for setting up and calling
 	 * other classes, usually from a main() method that parses command-line
-	 * parameters. If the driver were only responsible for a single class, we use
-	 * that class name. For example, "TaxiDriver" is what we would name a driver
-	 * class that just sets up and calls the "Taxi" class.
+	 * parameters. Generalized reusable code are usually placed outside of the
+	 * Driver class. They are sometimes called "Main" classes too, since they 
+	 * usually include the main() method. 
+	 * 
+	 * If the driver were only responsible for a single class, we use that class
+	 * name. For example, "TaxiDriver" is what we would name a driver class that
+	 * just sets up and calls the "Taxi" class.
 	 *
 	 * TODO: Delete this after reading.
 	 */
